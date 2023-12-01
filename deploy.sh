@@ -15,7 +15,7 @@ git add -A
 git commit -m 'deploy'
 
 #提交到这个分支
-git push -f git@github.com:panshun/notes.git main
+git push -f git@github.com:panshun/notes.git main:gh-pages
 
 cd -
 
