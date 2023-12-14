@@ -22,11 +22,17 @@ module.exports = {
           { text: "OpenLayers", link: "/gis/opengis/" },
           { text: "OpenGIS", link: "/gis/openlayers/" },
         ],
-      },{
+      }, {
         text: "Unity学习",
         items: [
           { text: "C#学习", link: "/unity/csharp/" },
           { text: "unity学习", link: "/unity/unity/" },
+        ]
+      }, {
+        text: "Java技术学习",
+        items: [
+          { text: "java基础", link: "/java/basic/" },
+          { text: "java进阶", link: "/java/more/" },
         ]
       }
     ],
@@ -40,16 +46,16 @@ module.exports = {
             { text: "算法1", link: "/gis/algorithm/算法1" },
             { text: "算法2", link: "/gis/algorithm/算法2" },
           ],
-        },{
-            text: "Leaflet",
-            link: "/gis/leaflet/",
-            collapsed: true,
-            items: [
-              { text: "Map", link: "/gis/leaflet/Map" },
-              { text: "算法2", link: "/gis/leaflet/Layer" },
-            ],
-          },
-        
+        }, {
+          text: "Leaflet",
+          link: "/gis/leaflet/",
+          collapsed: true,
+          items: [
+            { text: "Map", link: "/gis/leaflet/Map" },
+            { text: "算法2", link: "/gis/leaflet/Layer" },
+          ],
+        },
+
       ],
       "/unity/": [
         {
@@ -60,15 +66,34 @@ module.exports = {
             { text: "C#程序设计", link: "/unity/csharp/csharp01" },
             { text: "C#程序设计2", link: "/unity/csharp/csharp02" },
           ],
-        },{
-            text: "Unity学习",
-            link: "/unity/unity/",
-            collapsed: true,
-            items: [
-              { text: "unity1", link: "/unity/unity/unity1" },
-              { text: "unity2", link: "/unity/unity/unity2" },
-            ],
-          },
+        }, {
+          text: "Unity学习",
+          link: "/unity/unity/",
+          collapsed: true,
+          items: [
+            { text: "unity1", link: "/unity/unity/unity1" },
+            { text: "unity2", link: "/unity/unity/unity2" },
+          ],
+        },
+      ],
+      "/java/": [
+        {
+          text: "java基础",
+          collapsed: true,
+          link: "/java/basic/",
+          items: [
+            { text: "Java程序设计", link: "/java/basic/java01" },
+            { text: "java程序设计2", link: "/java/basic/java02" },
+          ],
+        }, {
+          text: "java进阶",
+          link: "/java/more/",
+          collapsed: true,
+          items: [
+            { text: "java进阶1", link: "/java/more/java01" },
+            { text: "java进阶2", link: "/java/more/java02" },
+          ],
+        },
       ]
     },
   },
