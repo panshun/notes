@@ -34,6 +34,12 @@ module.exports = {
           { text: "java基础", link: "/java/basic/" },
           { text: "java进阶", link: "/java/more/" },
         ]
+      }, {
+        text: "webgl技术",
+        items: [
+          { text: "webgl基础 ", link: "/webgl/basic/" },
+          { text: "cesium", link: "/webgl/cesium/" },
+        ]
       }
     ],
     sidebar: {
@@ -94,6 +100,27 @@ module.exports = {
             { text: "java进阶2", link: "/java/more/java02" },
           ],
         },
+      ],
+      "/webgl/": [
+        {
+          text: "webgl基础",
+          collapsed: true,
+          link: "/webgl/basic/",
+          items: [
+            {text: "glsl语言基础", link: "/webgl/basic/1glsl"},
+            {text: "矩阵", link: "/webgl/basic/2"}
+          ]
+
+        }, {
+          text: "webgl中级",
+          collapsed: true,
+          link: "/webgl/basic/",
+          items: [
+            {text: "glsl语言语法", link: "/webgl/basic/1"},
+            {text: "矩阵", link: "/webgl/basic/2"}
+          ]
+
+        }
       ]
     },
   },
