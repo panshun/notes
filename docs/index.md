@@ -13,7 +13,7 @@ hero:
 
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://panshun.github.io/notes/
  
 features:
   - icon: ⚡️
