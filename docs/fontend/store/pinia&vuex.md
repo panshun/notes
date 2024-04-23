@@ -251,7 +251,21 @@ vuexStore.dispatch('getState')
 
 一般来说，vuex中的流程是首先actions一般放异步函数，拿请求后端接口为例，当后端接口返回值的时候，actions中会提交一个mutations中的函数，然后这个函数对vuex中的状态（state）进行一个修改，组件中再渲染这个状态，从而实现整个数据流程都在vuex内部进行便于检测。直接看图，一目了然
 
-![图片 2](images/图片 2.png)
+
+
+
+
+![图片 2](./images/图片%202.png)
+
+
+
+
+
+
+
+
+
+
 
 ### pinia
 
