@@ -9,40 +9,73 @@ module.exports = {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2019-present Evan You'
     },
-    nav: [
-      {
-        text: "首页",
-        link: '/index'
-      },
-      {
-        text: "GIS技术",
-        items: [
-          { text: "GIS算法", link: "/gis/algorithm/" },
-          { text: "Leaflet", link: "/gis/leaflet/" },
-          { text: "OpenLayers", link: "/gis/opengis/" },
-          { text: "OpenGIS", link: "/gis/openlayers/" },
-        ],
-      }, {
-        text: "Unity学习",
-        items: [
-          { text: "C#学习", link: "/unity/csharp/" },
-          { text: "unity学习", link: "/unity/unity/" },
-        ]
-      }, {
-        text: "Java技术学习",
-        items: [
-          { text: "java基础", link: "/java/basic/" },
-          { text: "java进阶", link: "/java/more/" },
-        ]
-      }, {
-        text: "webgl技术",
-        items: [
-          { text: "webgl基础 ", link: "/webgl/basic/" },
-          { text: "cesium", link: "/webgl/cesium/" },
-        ]
-      }
+    nav: [{
+      text: "首页",
+      link: '/index'
+    }, {
+      text: "前端",
+      items: [
+        { text: "vuejs", link: "/fontend/vuejs/" },
+        { text: "nodejs", link: "/fontend/nodejs/" },
+        { text: 'store', link: "/fontdeng/store/"}
+      ],
+    },{
+      text: "GIS技术",
+      items: [
+        { text: "GIS算法", link: "/gis/algorithm/" },
+        { text: "Leaflet", link: "/gis/leaflet/" },
+        { text: "OpenLayers", link: "/gis/opengis/" },
+        { text: "OpenGIS", link: "/gis/openlayers/" },
+      ],
+    }, {
+      text: "Unity学习",
+      items: [
+        { text: "C#学习", link: "/unity/csharp/" },
+        { text: "unity学习", link: "/unity/unity/" },
+      ]
+    }, {
+      text: "Java技术学习",
+      items: [
+        { text: "java基础", link: "/java/basic/" },
+        { text: "java进阶", link: "/java/more/" },
+      ]
+    }, {
+      text: "webgl技术",
+      items: [
+        { text: "webgl基础 ", link: "/webgl/basic/" },
+        { text: "cesium", link: "/webgl/cesium/" },
+      ]
+    }
     ],
     sidebar: {
+      "/fontend/": [
+        {
+          text: "VueJS",
+          collapsed: true,
+          link: "/fontend/vuejs/",
+          items: [
+            { text: "vue3", link: "/fontend/vuejs/vue3" },
+            { text: "vue2", link: "/fontend/vuejs/vue2" },
+          ],
+        }, {
+          text: "NodeJS",
+          link: "/fontend/nodejs/",
+          collapsed: true,
+          items: [
+            { text: "Map", link: "/gis/leaflet/Map" },
+            { text: "算法2", link: "/gis/leaflet/Layer" },
+          ],
+        },{
+          text: "Store",
+          link: "/fontend/store/",
+          collapsed: true,
+          items: [
+            {text: "pinia", link: "/fontend/store/pinia"},
+            {text: "pinia和vuex的区别", link: "/fontend/store/pinia&vuex"}
+          ]
+        }
+
+      ],
       "/gis/": [
         {
           text: "GIS算法",
@@ -107,8 +140,8 @@ module.exports = {
           collapsed: true,
           link: "/webgl/basic/",
           items: [
-            {text: "glsl语言基础", link: "/webgl/basic/1glsl"},
-            {text: "矩阵", link: "/webgl/basic/2"}
+            { text: "glsl语言基础", link: "/webgl/basic/1glsl" },
+            { text: "矩阵", link: "/webgl/basic/2" }
           ]
 
         }, {
@@ -116,8 +149,8 @@ module.exports = {
           collapsed: true,
           link: "/webgl/basic/",
           items: [
-            {text: "glsl语言语法", link: "/webgl/basic/1"},
-            {text: "矩阵", link: "/webgl/basic/2"}
+            { text: "glsl语言语法", link: "/webgl/basic/1" },
+            { text: "矩阵", link: "/webgl/basic/2" }
           ]
 
         }

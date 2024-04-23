@@ -1,0 +1,3 @@
+# 搞懂Vue的两个状态管理工具Pinia和Vuex
+
+Pinia和vuex都是vue的全局状态管理器，Pinia更适合搭配Vue3，并兼容了TypeScript。
