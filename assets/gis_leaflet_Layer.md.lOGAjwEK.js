@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.JvFgJH8G.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"gis/leaflet/Layer.md","filePath":"gis/leaflet/Layer.md"}'),r={name:"gis/leaflet/Layer.md"};function s(o,c,n,i,l,f){return t(),a("div")}const d=e(r,[["render",s]]);export{_ as __pageData,d as default};

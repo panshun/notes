@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as a}from"./chunks/framework.JvFgJH8G.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"gis/algorithm/算法2.md","filePath":"gis/algorithm/算法2.md"}'),r={name:"gis/algorithm/算法2.md"};function o(s,i,c,n,_,m){return e(),a("div")}const l=t(r,[["render",o]]);export{d as __pageData,l as default};
